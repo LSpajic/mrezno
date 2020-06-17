@@ -1,0 +1,6 @@
+ulaz = int(input())
+a = ulaz // 100
+ulaz = ulaz - a*100
+b = ulaz // 10
+c = ulaz - b*10
+print(a,"\n",b,"\n",c)

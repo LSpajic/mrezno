@@ -1,0 +1,13 @@
+<html>
+
+<head>
+	<title>{{naslov}}</title>
+</head>
+
+<body>
+	{% for vrsta, ime in podatci -%}
+    	<div><li>{{vrsta}}: <a href="{{ime}}">{{ime}}</a></li></div>
+	{% endfor %}
+</body>
+
+</html>
